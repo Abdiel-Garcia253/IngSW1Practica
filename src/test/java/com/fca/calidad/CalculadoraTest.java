@@ -18,7 +18,7 @@ public class CalculadoraTest {
 	
 
 	@Test
-	public void sumaPositivosTest() {
+	public void sumaPositivosHola() {
 		//Llamar al código
 		float resultadoEsperado = 6;
 		float resultadoEjecucion = miCalculadora.suma(2, 4);
