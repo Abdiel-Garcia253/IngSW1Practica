@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class CalculadoraTest {
+public class CalculadoraTest{
 	private Calculadora miCalculadora ;
 	
 	@Before
@@ -17,7 +17,7 @@ public class CalculadoraTest {
 	}
 
 	@Test
-	public void sumaPositivosTest() {
+	public void SumaPositivosTest() {
 		//Llamar al código
 		float resultadoEsperado = 6;
 		float resultadoEjecucion = miCalculadora.suma(2, 4);
